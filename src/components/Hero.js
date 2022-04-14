@@ -4,7 +4,7 @@ const Hero = () => {
         <section className="hero-section">
            
             <div className="container">
-                <div className="row  align-items-center justify-content-center mt-5 pt-5">
+                <div className="row align-items-center justify-content-center">
                     <div className="col-5">
                         <div className="button-group">
                             <a className="btn btn-bordered-white" href=""><i className="icon-user mr-2"></i>About us</a>
