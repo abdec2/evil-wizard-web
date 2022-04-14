@@ -4,8 +4,8 @@ const Hero = () => {
         <section className="hero-section">
            
             <div className="container">
-                <div className="row">
-                    <div className="col-12 mt-5">
+                <div className="row  align-items-center justify-content-center mt-5 pt-5">
+                    <div className="col-5">
                         <div className="button-group">
                             <a className="btn btn-bordered-white" href=""><i className="icon-user mr-2"></i>About us</a>
                             <a className="btn btn-bordered-white" href=""><i className="icon-folder mr-2"></i>Our Collection</a>
