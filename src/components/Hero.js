@@ -15,7 +15,7 @@ const Hero = () => {
             </div>
 
             <div class="shape h-100">
-                <video autoPlay className="w-100">
+                <video autoPlay={true} muted={true} className="w-100">
                     <source src="https://evilwizardweb.s3.amazonaws.com/video/Intro.mp4" />
                     Your browser does not support the video tag.
                 </video>
