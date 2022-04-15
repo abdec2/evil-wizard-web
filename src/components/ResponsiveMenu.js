@@ -10,7 +10,23 @@ const ResponsiveMenu = () => {
                     </div>
                     <div className="menu modal-body">
                         <div className="row w-100">
-                            <div className="items p-0 col-12 text-center"></div>
+                            <div className="items p-0 col-12 text-center">
+                                <li className="nav-item dropdown">
+                                    <a className="nav-link" href="">About</a>
+                                </li>
+
+                                <li className="nav-item">
+                                    <a href="" className="nav-link">Roadmap</a>
+                                </li>
+
+                                <li className="nav-item">
+                                    <a href="" className="nav-link">Team</a>
+                                </li>
+
+                                <li className="nav-item">
+                                    <a href="" className="nav-link">Mint</a>
+                                </li>
+                            </div>
                         </div>
                     </div>
                 </div>

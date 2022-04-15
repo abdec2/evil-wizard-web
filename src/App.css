@@ -1,10 +1,68 @@
+.spacer {
+  height: 40px;
+  width: 100%;
+}
+
+.hero-section {
+  padding: 100px 0 10px;
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
 .shape {
-  
+  position: relative;
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  min-height: 130px;
+  overflow: hidden;
 }
 
 video {
   position: absolute;
-  left: 50%; /* % of surrounding element */
-  top: 50%;
-  transform: translate(-50%, -50%); /* % of current element */
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -20%);
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.team-card-box-shadow {
+  box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.5) !important;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.5) !important;
+  -moz-box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.5) !important;
+}
+
+.story-area {
+  padding: 50px 0;
+}
+
+.popular-collections-area {
+  padding: 50px 0;
+}
+
+
+@media (min-width: 460px) {
+  .shape {
+    min-height: 180px;
+  }
+}
+
+@media (min-width: 680px) {
+  .shape {
+    min-height: 280px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .shape {
+    min-height: 600px;
+  }
 }

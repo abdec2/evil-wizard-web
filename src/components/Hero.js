@@ -1,25 +1,14 @@
 
 const Hero = () => {
     return (
-        <section className="hero-section">
-           
-            <div className="container">
-                <div className="row align-items-center justify-content-center">
-                    <div className="col-5">
-                        <div className="button-group">
-                            <a className="btn btn-bordered-white" href=""><i className="icon-user mr-2"></i>About us</a>
-                            <a className="btn btn-bordered-white" href=""><i className="icon-folder mr-2"></i>Our Collection</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="shape h-100">
+        <section className="hero-section ">
+            <div className="shape">
                 <video autoPlay={true} muted={true} className="w-100">
                     <source src="https://evilwizardweb.s3.amazonaws.com/video/Intro.mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
+            
 
         </section>
     )
