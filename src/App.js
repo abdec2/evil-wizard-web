@@ -6,6 +6,7 @@ import ResponsiveMenu from './components/ResponsiveMenu';
 import Hero from './components/Hero';
 import Team from './components/Team';
 import Story from './components/Story';
+import Mission from './components/Mission';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <HeaderComponent />
         <Hero />
         <Story />
+        <Mission />
         <Team />
       </div>
       <ResponsiveMenu />

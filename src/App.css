@@ -45,6 +45,11 @@ video {
   padding: 100px 0;
 }
 
+.mission-area {
+  position: relative;
+  padding: 100px 0;
+}
+
 .popular-collections-area {
   position: relative;
   padding: 50px 0;
@@ -107,6 +112,20 @@ video {
 
 }
 
+.mission-area .intro h3::before {
+  position: absolute;
+  width: 100%;
+  top:0;
+  left:0;
+  opacity: 0.03;
+  font-size: 60px;
+  content: 'MISSION';
+  transform: translate(0%, -50%);
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
 .popular-collections-area .intro h3::before {
   position: absolute;
   width: 100%;
@@ -135,7 +154,24 @@ video {
   background-position: center;
 }
 
+.mission-area h5::before {
+  position: absolute;
+  content: attr(data-no);
+  color: white;
+  left: 0;
+  margin-left: -30px;
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  display: grid;
+  place-items: center;
+  transform: translate(-50%, calc(-50% + 10px));
 
+}
+
+.mission-area p, .mission-area ul {
+  margin: 1.5rem 0;
+}
 
 @media (min-width: 460px) {
   .shape {
