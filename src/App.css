@@ -298,6 +298,13 @@ a.social-icons:hover {
   max-width: 300px;
 }
 
+.nftCalender {
+  max-width: 200px;
+}
+.nftCalender img {
+  width: 100%;
+}
+
 @media (min-width: 460px) {
   .shape {
     min-height: 180px;
