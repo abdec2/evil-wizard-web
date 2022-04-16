@@ -8,6 +8,7 @@ import Team from './components/Team';
 import Story from './components/Story';
 import Mission from './components/Mission';
 import Roadmap from './components/Roadmap';
+import FooterComponent from './components/FooterComponent';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Mission />
         <Team />
         <Roadmap />
+        <FooterComponent />
       </div>
       <ResponsiveMenu />
     </div>

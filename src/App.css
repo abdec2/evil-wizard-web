@@ -258,6 +258,46 @@ video {
   margin: 1.5rem 0;
 }
 
+.footer-area {
+  background: rgba(0, 0, 0, 0.911);
+}
+
+.footer-area ul {
+  list-style: none;
+}
+
+.social-icons1 svg{
+  color: white !important;
+}
+
+ul.social-icon-list li:nth-child(even) {
+  margin: auto 20px;
+}
+
+a.social-icons:hover {
+  box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+.poweredby{
+  background: black;
+}
+
+.poweredby p, .poweredby p a{
+  font-size: 14px !important;
+}
+
+.poweredby p a {
+  color: #2b56f5 !important;
+}
+
+.poweredby p a:hover {
+  color: rgb(11, 155, 252) !important;
+}
+
+.logo-footer {
+  max-width: 300px;
+}
+
 @media (min-width: 460px) {
   .shape {
     min-height: 180px;
@@ -280,7 +320,6 @@ video {
   .roadmap-list {
     display: flex;
     align-items: flex-end;
-    margin-bottom: 200px;
   }
 
   .roadmap-list .roadmap-item .roadmap-innr::before {
@@ -300,14 +339,7 @@ video {
   }
 
   .roadmap-list .roadmap-item:last-child::after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    width: 100vw;
-    height: 2px;
-    background: #7a0fff;
-    transform: translateX(calc(-80% - 10px));
-  
+    left:-70%;
+    width:200vw
   }
 }
