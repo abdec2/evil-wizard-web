@@ -30,7 +30,7 @@ const FooterComponent = () => {
                     <div className="col-12 col-md-6">
                         <div className="">
                             <div className="">
-                                <p className='text-md-left text-center'>Copyright &copy; 2022 - Evil Wizards</p>
+                                <p className='text-md-left text-center'>Copyright &copy; {new Date().getFullYear()} - Evil Wizards</p>
                             </div>
                         </div>
                     </div>
