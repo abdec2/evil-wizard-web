@@ -8,7 +8,7 @@ import Oske_Discord_Manager from './../images/Oske_Discord_Manager.jpg'
 
 const Team = () => {
   return (
-    <section className="popular-collections-area ">
+    <section className="popular-collections-area " id="team">
 
       <div className="container">
         <div className="row justify-content-center">

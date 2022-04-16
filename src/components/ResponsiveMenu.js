@@ -1,6 +1,13 @@
 import React from 'react'
 
 const ResponsiveMenu = () => {
+
+    const closeModal = () => {
+       document.querySelector('#menu').classList.remove('show')
+       document.querySelector('#menu').style.display = 'none'
+       document.querySelector('body').classList.remove('modal-open')
+       document.querySelector('.modal-backdrop').remove()
+    }
     return (
         <div id="menu" className="modal fade p-0">
             <div className="modal-dialog dialog-animated">
@@ -12,19 +19,19 @@ const ResponsiveMenu = () => {
                         <div className="row w-100">
                             <div className="items p-0 col-12 text-center">
                                 <li className="nav-item dropdown">
-                                    <a className="nav-link" href="">About</a>
+                                    <a className="nav-link" href="#about" onClick={() => closeModal()}>About</a>
                                 </li>
 
                                 <li className="nav-item">
-                                    <a href="" className="nav-link">Roadmap</a>
+                                    <a href="#team" className="nav-link" onClick={() => closeModal()}>Team</a>
                                 </li>
 
                                 <li className="nav-item">
-                                    <a href="" className="nav-link">Team</a>
+                                    <a href="#roadmap" className="nav-link" onClick={() => closeModal()}>Roadmap</a>
                                 </li>
 
                                 <li className="nav-item">
-                                    <a href="" className="nav-link">Mint</a>
+                                    <a href="#mint" className="nav-link" onClick={() => closeModal()}>Mint</a>
                                 </li>
                             </div>
                         </div>

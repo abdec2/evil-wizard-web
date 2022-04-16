@@ -1,7 +1,7 @@
 
 const Hero = () => {
     return (
-        <section className="hero-section ">
+        <section className="hero-section" id="home">
             <div className="shape">
                 <video autoPlay={true} muted={true} className="w-100">
                     <source src="https://evilwizardweb.s3.amazonaws.com/video/Intro.mp4" />

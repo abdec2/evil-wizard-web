@@ -26,7 +26,7 @@ const FooterComponent = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row align-items-center justify-content-center">
+                <div className="row align-items-center justify-content-center mb-5">
                     <div className="col-12 col-md-6">
                         <div className="">
                             <div className="">

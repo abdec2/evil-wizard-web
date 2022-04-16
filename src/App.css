@@ -278,9 +278,7 @@ a.social-icons:hover {
   box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 
-.poweredby{
-  background: black;
-}
+
 
 .poweredby p, .poweredby p a{
   font-size: 14px !important;
@@ -302,6 +300,49 @@ a.social-icons:hover {
   max-width: 200px;
 }
 .nftCalender img {
+  width: 100%;
+}
+
+.minting-area {
+  position: relative;
+  padding: 100px 0;
+}
+.minting-area .intro h3::before {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.03;
+  font-size: 60px;
+  content: 'MINT YOUR NFTs';
+  transform: translate(0%, -50%);
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+.btn-mint-count {
+  background:rgba(255, 255, 255, 0);
+  clip-path: polygon(31% 0, 100% 0, 100% 100%, 0 99%, 0 18%);
+  border: 2px solid rgba(105, 105, 105, 0.3);
+  color: white;
+  position: relative;
+}
+
+.btn-mint-count:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-mint-count:focus {
+  outline: none;
+}
+
+.error {
+  z-index: 1000;
+  border-radius: 0;
+  position: fixed;
+  top:0;
+  left: 0;
   width: 100%;
 }
 
