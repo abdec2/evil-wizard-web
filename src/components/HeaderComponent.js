@@ -3,8 +3,9 @@ import { useContext, useEffect } from "react";
 import { GlobalContext } from "../context/GlobalContext";
 import Web3Modal from 'web3modal';
 import ABI from './../abi/abi.json';
+import CONFIG from './../abi/config.json'
 
-const contractAddress = "0x728b6c5be88AC089A84685bbe26fB306e0302955";
+const contractAddress = CONFIG.CONTRACT_ADDRESS;
 
 const HeaderComponent = ({ error, errorMsg, setError , setErrorMsg}) => {
     const {
@@ -22,8 +23,10 @@ const HeaderComponent = ({ error, errorMsg, setError , setErrorMsg}) => {
             if (web3 && account) {
                 try {
                     const contract = new ethers.Contract(contractAddress, ABI, web3);
+                    const cost = await contract.getNFTPrice();
                     addBlockchain({
                         'contract': contract,
+                        'nftPrice': cost
                     })
                     console.log('contract', contract)
                 } catch (e) {
@@ -125,7 +128,7 @@ const HeaderComponent = ({ error, errorMsg, setError , setErrorMsg}) => {
                     <ul className="navbar-nav action">
                         <li className="nav-item ml-3">
                             {account ? (
-                                <button className="btn ml-lg-auto btn-bordered-white" onClick={() => disconnectWallet()}><i className="icon-wallet mr-md-2"></i>disconnect</button>
+                                <button className="btn ml-lg-auto btn-bordered-white" onClick={() => disconnectWallet()}><i className="icon-wallet mr-md-2"></i>{account.slice(0, 5) + '...' + account.slice(38, 42)}</button>
                             ) : (
                                 <button className="btn ml-lg-auto btn-bordered-white" onClick={()=> connectWallet()}><i className="icon-wallet mr-md-2"></i>Wallet Connect</button>
                             )}
