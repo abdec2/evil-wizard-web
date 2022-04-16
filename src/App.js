@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import Team from './components/Team';
 import Story from './components/Story';
 import Mission from './components/Mission';
+import Roadmap from './components/Roadmap';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Story />
         <Mission />
         <Team />
+        <Roadmap />
       </div>
       <ResponsiveMenu />
     </div>

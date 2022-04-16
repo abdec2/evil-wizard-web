@@ -11,7 +11,7 @@ const Mission = () => {
                             <p>Unlike anything before the evil wizards arise from the ashes and are reborn</p>
                             <div className="row flex-lg-nowrap justify-content-center">
                                 <div className="col-12 col-sm-6 text-left ">
-                                    <h5 data-no="1">CREATING OUR COMMUNITY</h5>
+                                    <h5 data-no="1" className="pl-3">CREATING OUR COMMUNITY</h5>
                                 </div>
                                 <div className="col-12 col-sm-6 text-left">
                                     <p>We begin opening our social media and discord to the public</p>
@@ -20,7 +20,7 @@ const Mission = () => {
                             </div>
                             <div className="row flex-lg-nowrap justify-content-center mt-3">
                                 <div className="col-12 col-sm-6 text-left">
-                                    <h5 data-no="2">LAUNCH</h5>
+                                    <h5 data-no="2" className="pl-3">LAUNCH</h5>
                                 </div>
                                 <div className="col-12 col-sm-6 text-left">
                                     <p>Our initial launch will be on 15th April 2022, once the Genesis NFTs have soldout, we will begin with our full collection</p>
@@ -28,7 +28,7 @@ const Mission = () => {
                             </div>
                             <div className="row flex-lg-nowrap justify-content-center mt-3">
                                 <div className="col-12 col-sm-6 text-left">
-                                    <h5 data-no="3">FLOOR PRICES</h5>
+                                    <h5 data-no="3" className="pl-3">FLOOR PRICES</h5>
                                 </div>
                                 <div className="col-12 col-sm-6 text-left">
                                     <ul>
@@ -40,7 +40,7 @@ const Mission = () => {
                             </div>
                             <div className="row flex-lg-nowrap justify-content-center mt-3">
                                 <div className="col-12 col-sm-6 text-left">
-                                    <h5 data-no="4">GIVE AWAYS</h5>
+                                    <h5 data-no="4" className="pl-3">GIVE AWAYS</h5>
                                 </div>
                                 <div className="col-12 col-sm-6 text-left">
                                     <ul>
