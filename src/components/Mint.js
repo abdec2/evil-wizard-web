@@ -89,9 +89,9 @@ const Mint = () => {
                             <div>
                                 <button disabled={loading} className="btn ml-lg-auto btn-bordered-white" onClick={() => claimNFT()}> {loading ? "BUSY" : "BUY"} </button>
                             </div>
-                            {/* <div className="ml-3">
+                            <div className="ml-3">
                                 <a href={CONFIG.OPENSEA_URI+(account ? account : '')} target="blank" className="btn ml-lg-auto btn-bordered-white text-white">Opensea</a>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
