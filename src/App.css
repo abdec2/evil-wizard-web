@@ -389,7 +389,7 @@ a.social-icons:hover {
   }
 
   .roadmap-list .roadmap-item:last-child::after {
-    left:-70%;
-    width:200vw
+    left:-85%;
+    
   }
 }

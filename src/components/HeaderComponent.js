@@ -51,7 +51,7 @@ const HeaderComponent = ({ error, errorMsg, setError , setErrorMsg}) => {
         console.log(networkId)
         addNetwork(networkId)
         addWeb3(provider)
-        if(networkId.chainId == 80001 || networkId.chainId == 137) {
+        if(networkId.chainId == 137) {
             setError(false)
                     setErrorMsg('')
         } else {
